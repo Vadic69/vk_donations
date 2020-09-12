@@ -109,7 +109,7 @@ class _DonationFormState extends State<DonationForm> {
                   Navigator.push(
                     context,
                     PageRouteBuilder(
-                      pageBuilder: (_, __, ___) => Description(),
+                      pageBuilder: (_, __, ___) => Description(regular: widget.regular,),
                       transitionDuration: Duration(seconds: 0),
                     ),
                   );
